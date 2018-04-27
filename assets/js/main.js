@@ -10,12 +10,6 @@ var ElementScaler = {
 
     init: function () {
         this.centerFooter();
-
-        if(this.documentWidth > 1200) {
-            //this.scaleLogo();
-        }
-
-        //this.centerLogo();
         this.show();
     },
 
@@ -45,15 +39,3 @@ var ElementScaler = {
         }
     }
 };
-
-//ElementScaler.init();
-
-$(window).resize(function () {
-  //ElementScaler.init();
-
-});
-
-setTimeout(function () {
-    //$("#logo img").show();
-
-}, 1000);
