@@ -1,18 +1,29 @@
+@font-face {
+    font-family: TheSkinny;
+    src: url("../font/TheSkinny.otf") format("opentype");
+}
+
+@font-face {
+    font-family: TheSkinny;
+    font-weight: bold;
+    src: url("../font/TheSkinnybold.otf") format("opentype");
+}
+
 body {
     background: #fff url(../images/bluefoxy_bgr_02.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "TheSkinny", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .content {
-    font-size: 30px;
+    font-size: 44px;
     text-align: center;
-    font-weight: 900;
+    font-weight: bold;
     text-transform: uppercase;
-    line-height: 44px;
+    line-height: 64px;
     color: #1F355C;
 }
 
@@ -25,5 +36,5 @@ body {
 }
 
 .content a {
-    text-decoration: underline;
+    text-decoration: none;
 }
